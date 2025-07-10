@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>OrquestR</id>
+    <version>1.0.0</version>
+    <title>OrquestR</title>
+    <authors>Jitesh Sonkusare</authors>
+    <owners>Jitesh Sonkusare</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <icon>images/cleanapi.png</icon>
+    <projectUrl>https://github.com/JiteshSonkusare/OrquestR</projectUrl>
+    <description>A lightweight .NET Core library for implementing CQRS with clean separation between API and business logic.</description>
+    <releaseNotes>A lightweight .NET Core library for implementing CQRS with clean separation between API and business logic.</releaseNotes>
+    <copyright>CCF © 2025</copyright>
+    <tags>CLEAN;CCF;DNB,ORQUESTR</tags>
+    <dependencies>
+      <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.7" />
+    </dependencies>
+    <readme>README.md</readme>
+  </metadata>
+  <files>
+    <file src="../src/CCFCleanMinimalApiLib/bin/Release/net8.0/CCFCleanMinimalApiLib.dll" target="lib/net8.0/" />
+    <file src="../src/CCFCleanMinimalApiLib/bin/Release/net8.0/CCFCleanMinimalApiLib.pdb" target="lib/net8.0/" />
+    <file src="../src/images/cleanapi.png" target="images/" />
+    <file src="README.md" target="." />
+  </files>
+</package>
